@@ -7,7 +7,142 @@
     <link rel="stylesheet" href="dist/style.css" />
     <title>calculator</title>
   </head>
-  <body>
-    <h1 class="text-5xl bg-green-700">Hello</h1>
+  <body class="bg-white">
+    <h1
+      class="text-3xl container mx-auto text-center mt-5 py-5 capitalize font-serif"
+    >
+      calculator
+    </h1>
+    <!-- calculator -->
+    <div
+      class="calculator border-4 border-neutral-400 bg-blue-300 max-w-sm h-auto mx-auto py-8 px-4 rounded-2xl lg:max-w-lg"
+    >
+      <div
+        class="bg-white text-xl m-5 container mx-auto px-4 shadow-inner max-w-md border-4 border-neutral-400 rounded-2xl py-5 lg:text-2xl"
+      >
+        <div class="currentDisplay">0</div>
+      </div>
+      <div
+        id="calnumbers-btn"
+        class="container mx-auto text-center grid grid-cols-4 max-w-md gap-4 text-2xl text-zinc-700 py-6 my-4 lg:text-4xl font-semibold"
+      >
+        <button
+          id="clear"
+          class="drop-shadow-2xl rounded-lg bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          C
+        </button>
+        <button
+          id="delete"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          CE
+        </button>
+        <button
+          id="operator"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          &percnt;
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          &divide;
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          1
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          2
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          3
+        </button>
+        <button
+          id="operator"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          &times;
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          4
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          5
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100 transition duration-150 ease-linear"
+        >
+          6
+        </button>
+        <button
+          id="operator"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          &minus;
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          7
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          8
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          9
+        </button>
+        <button
+          id="operator"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          &plus;
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          0
+        </button>
+        <button
+          id="number"
+          class="py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          .
+        </button>
+        <button
+          id="equals colTwo"
+          class="col-span-2 py-4 px-4 rounded-xl bg-white border-b-2 border-zinc-500 hover:bg-slate-100"
+        >
+          &equals;
+        </button>
+      </div>
+    </div>
+
+    <script src="src/js/app.js"></script>
   </body>
 </html>
