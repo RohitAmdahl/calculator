@@ -15,20 +15,21 @@ let inputValue = "";
 
 calculatorCta.forEach((numberValue) => {
   numberValue.addEventListener("click", (e) => {
-    e.preventDefault();
     const numberData = e.target.innerText;
     console.log("numberData text is ", numberData);
-    if (numberData == "x") {
+    if (numberData === "*") {
       numberData = "*";
       inputValue += numberData;
       input.value += innerText;
     } else if (numberData === "Ac") {
       input.value = "";
-
-      console.log("object");
+      input.value = inputValue;
     } else if (numberData === "=") {
       input.value = eval(inputValue);
       console.log(inputValue);
+    } else {
+      inputValue += numberData;
+      input.value = inputValue;
     }
   });
 });

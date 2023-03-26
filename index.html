@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="dist/style.css" />
     <title>calculator</title>
   </head>
-  <body class="bg-pink-50">
+  <body class="bg-pink-50 font-bold">
     <!-- calculator -->
     <div
       class="calculater mt-10 container mx-auto grid grid-cols-4 gap-1 max-w-sm border-8 bg-blue-200 rounded-lg text-xl"
     >
-      <div id="output" class="col-span-4 p-2 border-4 text-black">
+      <div
+        id="output"
+        class="col-span-4 p-2 border-4 text-black text-center font-mono text-xl font-bold"
+      >
+        Calculator
         <!-- <div id="display-1" class="display border-5 bg-gray-400 py-2">0</div> -->
         <input
           type="text"
@@ -27,13 +31,13 @@
       </button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-delete>Del</button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-operation>
-        &divide
+        /
       </button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>1</button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>2</button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>3</button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-operation>
-        X
+        *
       </button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>4</button>
       <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>5</button>
