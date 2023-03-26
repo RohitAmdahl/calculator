@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "description": "calculater'",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitAmdahl/calculator.git"
+  },
+  "keywords": [
+    "calculater",
+    "project"
+  ],
+  "author": "rohit kumar <rohit_designer@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitAmdahl/calculator/issues"
+  },
+  "homepage": "https://github.com/RohitAmdahl/calculator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
