@@ -11,12 +11,14 @@ calculatorCta.forEach((numberValue) => {
     const numberData = e.target.innerText;
     console.log("numberData text is ", numberData);
     if (numberData === "*") {
-      numberData = "*";
+      // numberData = "*";
       inputValue += numberData;
       input.value += innerText;
     } else if (numberData === "Ac") {
       input.value = "";
       input.value = inputValue;
+    } else if (numberData === "Del") {
+      input.value = "";
     } else if (numberData === "=") {
       input.value = eval(inputValue);
       console.log(inputValue);
