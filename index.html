@@ -9,14 +9,16 @@
     <title>calculator</title>
   </head>
   <body class="bg-pink-50 font-bold">
-    <div class="container text-center p-6 m-6 mx-auto">Project Calculator</div>
+    <div class="container text-center p-6 m-6 mx-auto text-3xl">
+      Project Calculator
+    </div>
     <!-- calculator -->
     <div
-      class="calculater mt-10 container mx-auto grid grid-cols-4 gap-1 max-w-sm border-8 bg-blue-200 rounded-lg text-xl"
+      class="calculater mt-10 p-5 container mx-auto grid grid-cols-4 gap-1 max-w-md border-8 bg-blue-200 rounded-lg text-xl"
     >
       <div
         id="output"
-        class="col-span-4 p-2 border-4 text-black text-center font-mono text-xl font-bold"
+        class="col-span-4 p-2 border-4 flex flex-col p-6 text-black text-center font-mono text-xl font-bold"
       >
         Calculator
 
@@ -27,34 +29,74 @@
           class="display border-5 bg-gray-400 py-2 px-2"
         />
       </div>
-      <button class="col-span-2 p-2 text-lg bg-red-300 rounded-xl" data-clear>
+      <button
+        class="col-span-2 p-2 text-lg bg-red-300 rounded-xl shadow-xl"
+        data-clear
+      >
         Ac
       </button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-delete>Del</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-operation>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-delete>
+        Del
+      </button>
+      <button
+        class="p-2 text-lg bg-red-300 rounded-xl shadow-xl"
+        data-operation
+      >
         /
       </button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>1</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>2</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>3</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-operation>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        1
+      </button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        2
+      </button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        3
+      </button>
+      <button
+        class="p-2 text-lg bg-red-300 rounded-xl shadow-xl"
+        data-operation
+      >
         *
       </button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>4</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>5</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>6</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-operation>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        4
+      </button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        5
+      </button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        6
+      </button>
+      <button
+        class="p-2 text-lg bg-red-300 rounded-xl shadow-xl"
+        data-operation
+      >
         +
       </button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>7</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>8</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>9</button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-operation>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        7
+      </button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        8
+      </button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        9
+      </button>
+      <button
+        class="p-2 text-lg bg-red-300 rounded-xl shadow-xl"
+        data-operation
+      >
         -
       </button>
-      <button class="p-2 text-lg bg-red-300 rounded-xl" data-number>.</button>
+      <button class="p-2 text-lg bg-red-300 rounded-xl shadow-xl" data-number>
+        .
+      </button>
       <button class="p-2 text-lg bg-red-300" data-number>0</button>
-      <button class="col-span-2 p-2 text-lg bg-red-300 rounded-xl" data-equals>
+      <button
+        class="col-span-2 p-2 text-lg bg-red-300 rounded-xl shadow-xl"
+        data-equals
+      >
         =
       </button>
     </div>
