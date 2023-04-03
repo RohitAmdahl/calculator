@@ -9,9 +9,7 @@ let inputValue = "";
 calculatorCta.forEach((numberValue) => {
   numberValue.addEventListener("click", (e) => {
     const numberData = e.target.innerText;
-    console.log("numberData text is ", numberData);
     if (numberData === "*") {
-      // numberData = "*";
       inputValue += numberData;
       input.value += innerText;
     } else if (numberData === "Ac") {
